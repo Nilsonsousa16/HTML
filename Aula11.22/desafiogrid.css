@@ -1,0 +1,18 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-size: 26px; }
+
+body { display: grid; background-color: black; width: 100vw; height: 100vh; grid-template-columns: 25% 25% 15% 15% 20%; grid-template-rows: 5% 40% 25% 30%; gap: 4px; grid-template-areas: 
+    "div1 div1 div1 div1 div2"
+    "div3 div3 div4 div4 div5"
+    "div6 div7 div4 div4 div5"
+    "div6 div7 div8 div9 div5" 
+    ; }
+
+#div1 { background-color: aliceblue; grid-area: div1; }
+#div2 { background-color: yellow; grid-area: div2 }
+#div3 { background-color: cadetblue; grid-area: div3 }
+#div4 { background-color: blue; grid-area: div4 }
+#div5 { background-color: violet; grid-area: div5 }
+#div6 { background-color: yellow; grid-area: div6 }
+#div7 { background-color: red; grid-area: div7 }
+#div8 { background-color: goldenrod; grid-area: div8 }
+#div9 { background-color: blueviolet; grid-area: div9 }
