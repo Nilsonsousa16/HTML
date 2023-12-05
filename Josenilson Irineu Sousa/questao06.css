@@ -1,0 +1,12 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box;}
+
+header { background-color: dimgray; color: #ffffff; display: flex; }
+
+span { color: orange; }
+
+.div1 { padding: 10px 450px 10px 10px; }
+.div2 { padding: 10px 60px 10px 10px; }
+.div3 { padding: 10px 60px 10px 10px; }
+.div4 { padding: 10px 40px 10px 10px; }
+
+img { width: 180px; }
